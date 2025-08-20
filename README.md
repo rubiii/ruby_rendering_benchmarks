@@ -1,5 +1,9 @@
 # Benchmarking HTML rendering in Ruby  
 
+Inspired by [the recent blog post and benchmarks](https://noteflakes.com/articles/2025-08-18-how-to-make-ruby-faster)
+published by Sharon Rosner [@noteflakes](https://github.com/noteflakes),  
+I added ViewComponent and memory benchmarks to the mix.
+
 Here are the contestants:
 * [ERB](https://github.com/ruby/erb)
 * [Erubi](https://github.com/jeremyevans/erubi)
