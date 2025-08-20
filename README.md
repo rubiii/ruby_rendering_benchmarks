@@ -10,7 +10,7 @@ Here are the contestants:
 * [P2](https://github.com/digital-fabric/p2)
 * [Papercraft](https://github.com/digital-fabric/papercraft)
 * [Phlex](https://github.com/yippee-fun/phlex)
-* [ViewComponent](https://github.com/ViewComponent/view_component)
+* [ViewComponent (VC)](https://github.com/ViewComponent/view_component)
 
 This is my setup:
 
