@@ -1,24 +1,39 @@
-# README
+# Benchmarking HTML rendering in Ruby  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Here are the contestants:
+* [ERB](https://github.com/ruby/erb)
+* [Erubi](https://github.com/jeremyevans/erubi)
+* [P2](https://github.com/digital-fabric/p2)
+* [Papercraft](https://github.com/digital-fabric/papercraft)
+* [Phlex](https://github.com/yippee-fun/phlex)
+* [ViewComponent](https://github.com/ViewComponent/view_component)
 
-Things you may want to cover:
+This is my setup:
 
-* Ruby version
+```
+MacBook Pro, 14-inch, Nov. 2024
+Apple M4
+16 GB memory
+macOS 15.6
+Ruby 3.4.4
+```
 
-* System dependencies
+These are my results as of August 20, 2025:
 
-* Configuration
+![IPS benchmark](docs/ips_20250820.png)
 
-* Database creation
+And the memory benchmark:
 
-* Database initialization
+![Memory benchmark](docs/memory_20250820.png)
 
-* How to run the test suite
+And here's how you can run the benchmarks yourself:
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+git checkout git@github.com:rubiii/ruby_rendering_benchmarks.git
+cd ruby_rendering_benchmarks
+bundle
+bin/rails benchmark:ips
+bin/rails benchmark:memory
+```
 
-* Deployment instructions
-
-* ...
+If I messed something up, please let me know.
