@@ -33,7 +33,7 @@ And the memory benchmark:
 And here's how you can run the benchmarks yourself:
 
 ```
-git checkout git@github.com:rubiii/ruby_rendering_benchmarks.git
+git clone git@github.com:rubiii/ruby_rendering_benchmarks.git
 cd ruby_rendering_benchmarks
 bundle
 bin/rails benchmark:ips
